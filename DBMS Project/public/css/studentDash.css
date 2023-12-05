@@ -151,29 +151,6 @@ body {
 }
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /* scroll bar -------------------------------------------------------- */
 ::-webkit-scrollbar {
     width: 10px;
@@ -188,4 +165,75 @@ body {
   ::-webkit-scrollbar-thumb:hover {
     background-color: transparent; 
   }
+
+
+@media only screen and (max-width: 850px) {
+
+    .student{
+        font-size: small;
+        padding:0.5rem;
+    }
+    .studentInfo{
+        height: 7.9rem;
+        padding:0.5rem;
+    }
+    .logoutContainer{
+        padding:0.5rem;
+    }
+    .studentDetails{
+        height: 22vh;
+        align-items: center;
+    }
+    .booksDetails{
+        overflow-x: auto;
+    }
+    .booksIssued{
+        overflow-x: auto;
+    }
+    .studlogo{
+        height: 150px;
+        width: 150px;
+    }
+ 
+ }
+
+ @media only screen and (max-width: 670px) {
+
+    .student{
+        font-size: small;
+        padding:0.5rem;
+    }
+    .studentInfo{
+        height: 7.9rem;
+        padding:0.5rem;
+    }
+    .logoutContainer{
+        padding:0.5rem;
+    }
+    .studentDetails{
+        /* flex-wrap: wrap; */
+        padding: 1rem;
+        height: 55vh;
+        flex-direction: column;
+
+    }
+    .booksDetails{
+        overflow-x: auto;
+       
+      
+    }
+    .booksIssued{
+        padding: 1rem;
+        
+    }
+    .studlogo{
+        height: 50px;
+        width: 50px;
+    }
+ 
+ }
+ 
+ 
+
+
   
