@@ -16,7 +16,7 @@ const studPass = "123456";
 // app.get("/", (req, res) => {
 //     res.render("index"); 
 // });
-app.get("/studentLogin",(req,res)=>{
+app.get("/",(req,res)=>{
   res.render("studentLogin")
 })
 app.post("/",(req,res)=>{
