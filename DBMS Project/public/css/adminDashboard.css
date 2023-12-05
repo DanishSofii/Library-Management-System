@@ -173,4 +173,127 @@ body {
   ::-webkit-scrollbar-thumb:hover {
     background-color: #2980b9; /* Color of the thumb on hover */
   }
-  
+  @media only screen and (max-width: 1330px) {
+    .quote{
+        width:30rem;
+    }
+    
+}
+
+@media only screen and (max-width: 1100px) {
+    
+    .quote{
+        width:20rem;
+    }
+    .operationsContainer{
+        overflow-y: auto;
+    }
+}
+
+
+@media only screen and (max-width: 920px) {
+    
+    .quote{
+        width:15rem;
+    }
+}
+
+@media only screen and (max-width: 840px) {
+    
+    .quote{
+        width:15rem;
+    }
+    .time-weather{
+        height: 7rem;
+        margin: 0;
+    }
+    .date{
+        padding: 0.5rem;
+    }
+    .weather{
+        padding: 0.3rem;
+         
+    }
+    h2{
+        font-size: 1.2rem;
+
+    }
+    h3{
+        font-size: 1rem;
+        
+    }
+}
+
+@media only screen and (max-width: 740px) {
+    
+   .op{
+    height: 8rem;
+    width: 13rem;
+    margin: 1rem;
+   }
+   .quote{
+    width:12rem;
+}
+.time-weather{
+    height: 7rem;
+    margin: 0;
+}
+.date{
+    padding: 0.3rem;
+}
+.weather{
+    padding: 0.2rem;
+     
+}
+h2{
+    font-size: 1rem;
+
+}
+h3{
+    font-size: 0.7rem;
+    
+}
+}
+@media only screen and (max-width: 640px) {
+    
+    .op{
+     height: 8rem;
+     width: 13rem;
+     margin: 1rem;
+    }
+    .quote{
+     width:12rem;
+     margin-top:1rem;
+ }
+ .time-weather{
+     height: 7rem;
+     width:12rem;
+     margin: 0;
+     margin-bottom:1rem;
+     
+ }
+ .date{
+     padding: 0.3rem;
+ }
+ .weather{
+     padding: 0.2rem;
+      
+ }
+ h2{
+     font-size: 1rem;
+ 
+ }
+ h3{
+     font-size: 0.7rem;
+     
+ }
+ .greet-container{
+    padding-left:80px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+
+ }
+ }
+ 
