@@ -110,6 +110,7 @@ input::placeholder{
     }
     .container{
         width:40vw;
+        height: 60vh;
     }
 }
 @media only screen and (max-width: 960px) {
@@ -145,7 +146,10 @@ input::placeholder{
     button{
         height:2rem;
     }
-    
+    .container{
+        height: 55vh;
+    }
+
 }
 
 @media only screen and (max-width: 640px) {
@@ -166,6 +170,19 @@ input::placeholder{
     }
     .container{
         width:65vw;
+        height: 52vh;
+    }
+    
+}
+@media only screen and (max-width: 415px) {
+    
+    .heading-text{
+        font-size: large;
+        padding:0.7rem;
+    }
+    .container{
+        width:65vw;
+        height: 45vh;
     }
     
 }
