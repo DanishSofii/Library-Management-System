@@ -13,12 +13,12 @@ const adminPass = "123456";
 const studEid = "abc@123.com";
 const studPass = "123456";
 
-app.get("/", (req, res) => {
-    res.render("index"); 
-});
-// app.get("/studentLogin",(req,res)=>{
-//   res.render("studentLogin")
-// })
+// app.get("/", (req, res) => {
+//     res.render("index"); 
+// });
+app.get("/studentLogin",(req,res)=>{
+  res.render("studentLogin")
+})
 app.post("/",(req,res)=>{
   res.render("studentLogin")
 })
