@@ -95,3 +95,77 @@ input::placeholder{
 #log{
     color:orange;
 }
+@media only screen and (max-width: 1270px) {
+    /* input,button{
+        width:15rem;
+    } */
+    #log{
+    }
+    .heading-text{
+        font-size: x-large;
+        padding:0.7rem;
+    }
+    a{
+        font-size: small;
+    }
+    .container{
+        width:40vw;
+    }
+}
+@media only screen and (max-width: 960px) {
+    input,button{
+        width:15rem;
+    }
+    #log{
+    }
+    .heading-text{
+        font-size: x-large;
+        padding:0.7rem;
+    }
+    a{
+        font-size: small;
+    }
+    .container{
+        width:45vw;
+    }
+}
+@media only screen and (max-width: 870px) {
+    input,button{
+        width:15rem;
+    }
+    #log{
+    }
+    .heading-text{
+        font-size: large;
+        padding:0.7rem;
+    }
+    a{
+        font-size: small;
+    }
+    button{
+        height:2rem;
+    }
+    
+}
+
+@media only screen and (max-width: 640px) {
+    input,button{
+        width:11rem;
+    }
+    #log{
+    }
+    .heading-text{
+        font-size: large;
+        padding:0.7rem;
+    }
+    a{
+        font-size: small;
+    }
+    button{
+        height:2rem;
+    }
+    .container{
+        width:65vw;
+    }
+    
+}
